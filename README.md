@@ -7,6 +7,7 @@
 
   1.1、先去官网下载msi安装文件，我的下载地址：
     https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.4.14-signed.msi/download
+    
   1.2、直接打开安装，我选择了默认路径 
     路径：C:\Program Files\MongoDB\Server\3.4
 
@@ -21,11 +22,12 @@
         path: c:\data\log\mongod.log
     storage:
         dbPath: c:\data\db
+    ![mongodb_5图片](https://github.com/xiong66/node-idea/blob/master/img/mongodb_5.png)  
 
   1.5、打开cmd命令行（一定要管理员权限打开）
     "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --config "C:\Program Files\MongoDB\Server\3.4\mongod.cfg" --install
     直接copy，回车运行。
     ![mongodb_3图片](https://github.com/xiong66/node-idea/blob/master/img/mongodb_3.png)
-    
+
   1.6、大功告成，启动 net start MongoDB，关闭 net stop MongoDB
     ![mongodb_3图片](https://github.com/xiong66/node-idea/blob/master/img/mongodb_4.png)
